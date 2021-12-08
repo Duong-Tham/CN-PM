@@ -1,0 +1,139 @@
+		body
+        {
+	        margin:0px;
+        }
+        #trangchinh
+        {
+            width: 100%;
+            height: auto;
+			border:#FF0000 solid 2px;
+        }
+        #header{
+	height:150px;
+	width:100%;
+	background-color:#99FF66;
+	line-height:150px;
+	text-align:center;
+	position: relative;
+	font-size: 25px;
+}
+#header div{
+	color: black;
+}
+#mid{
+	background-color:white;
+	color:#FF0000;
+
+}
+#topmenu{
+	font-size:14px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	border-bottom:#000000 solid 3px;
+}
+#topmenu div{
+	display:inline;
+	margin-right:30px;
+	padding:5px 15px;
+    text-decoration: underline;
+}
+
+#topmenu div:hover{
+	background-color:#33FF33;
+}
+#leftmenu{
+	width:20%;
+	float:left;
+	background-color:#99FF99;
+	border:solid 2px #990033;
+    text-decoration: underline;
+	
+}
+#leftmenu div{
+	border-bottom: #66FF00 solid 1px;
+}
+#leftmenu div:hover{
+	background-color:#33FF00;
+}
+#content{
+	width:79.3%;
+	height: auto;
+	float:right;
+	border:#FF0000 solid 2px;
+	color:#0a0808;
+    background-color: aliceblue;
+}
+
+#footer{
+	height:150px;
+	width:100%;
+	background-color:#99FF99;
+	clear:both;
+	line-height:150px;
+	text-align:center;
+	font-size:36px;
+	
+	
+}
+/* Moblie*/
+@media only screen and (max-width: 900px) and (min-width: 320px){
+  #topmenu{
+		
+		background-color:#00FFFF;
+		
+	}
+	#topmenu div{
+		display:block;
+		width:100%;
+	}
+	
+}
+@media only screen  and (min-width: 320px) and (max-width: 900px){
+	#content{
+		width:78.3%;
+	}
+}
+@media only screen  and (min-width: 905px) and (max-width: 1200px){
+	#content{
+		width:79.1%;
+	}
+}
+/* Màn hình laptop hoặc desktop lớn*/
+@media (min-width: 1200px) {
+}
+
+/* Màn hình máy tính bảng lớn hoặc máy tính màn hình trung bình */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Màn hình máy tính bảng nhỏ hoặc máy tính màn hình nhỏ */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+}
+@media (max-width: 480px) {
+}
+.input[type=submit]
+{
+	margin-left: 10px;
+}
+.fdnhap
+{
+	border: #000000 solid 1px;
+}
+a:hover
+{
+	color: crimson;
+	background-color: #33FF33;
+	border: #000000 solid 1px;
+}
+.phantrang{
+	position: absolute;
+	height: 10px;
+	width: 20px;
+}
+.o{
+	height: 10px;
+	text-align: center;
+	width: 25%;
+}
